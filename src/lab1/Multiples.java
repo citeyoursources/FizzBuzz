@@ -6,7 +6,7 @@ public class Multiples {
         System.out.println(multiple);
     }
 
-     static int multiples(int n, int a, int b) {
+     public static int multiples(int n, int a, int b) {
         int counter = 0;
         for (int i = 1; i < n ;i++) {
            boolean divisibleBy3 = i % a == 0;
